@@ -1,0 +1,93 @@
+L1:
+PUSH D0
+MOV SP D0
+ADD SP #10 SP
+PUSH #1
+POP @1(D0)
+PUSH #0
+POP @2(D0)
+PUSH 1(D0)
+PUSH 2(D0)
+ANDS
+POP @3(D0)
+PUSH #"a and b = "
+WRTS
+PUSH 3(D0)
+WRTS
+PUSH #": should be FALSE"
+WRTS
+WRTLN #""
+PUSH 1(D0)
+PUSH 2(D0)
+ORS
+POP @3(D0)
+PUSH #"a or b = "
+WRTS
+PUSH 3(D0)
+WRTS
+PUSH #": should be TRUE"
+WRTS
+WRTLN #""
+PUSH 2(D0)
+PUSH #1
+SUBS
+NEGS
+POP @3(D0)
+PUSH #"not b = "
+WRTS
+PUSH 3(D0)
+WRTS
+PUSH #": should be TRUE"
+WRTS
+WRTLN #""
+PUSH 1(D0)
+PUSH #1
+SUBS
+NEGS
+PUSH #1
+SUBS
+NEGS
+POP @3(D0)
+PUSH #"not not a = "
+WRTS
+PUSH 3(D0)
+WRTS
+PUSH #": should be TRUE"
+WRTS
+WRTLN #""
+push #1
+POP 7(D0)
+push #2
+POP 8(D0)
+push #3
+POP 9(D0)
+PUSH 7(D0)
+PUSH @8(D0)
+CMPLTS
+PUSH 8(D0)
+PUSH @9(D0)
+CMPLTS
+ANDS
+POP @3(D0)
+PUSH #" x = "
+WRTS
+PUSH 7(D0)
+WRTS
+PUSH #", y = "
+WRTS
+PUSH 8(D0)
+WRTS
+PUSH #", z = "
+WRTS
+PUSH 9(D0)
+WRTS
+PUSH #", and c = "
+WRTS
+PUSH 3(D0)
+WRTS
+PUSH #": should be TRUE"
+WRTS
+WRTLN #""
+SUB SP #10 SP
+POP D0
+HLT

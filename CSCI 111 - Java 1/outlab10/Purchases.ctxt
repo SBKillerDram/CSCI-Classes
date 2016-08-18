@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ newPurchase()
+comment0.text=\r\n\ asks\ user\ to\ input\ object\ name\ unit\ price\ and\ quantity\r\n\ \r\n\ @param\ \ a\ b\ c\r\n\ @return\ \ \ \ \ a\ b\ c\ \r\n
+comment1.params=
+comment1.target=void\ allPurchases()
+comment1.text=\r\n\ \r\n
+comment2.params=name
+comment2.target=void\ deletePurchase(java.lang.String)
+comment2.text=\r\n\ removes\ an\ item\ from\ the\ arrylist\ myPurchases\r\n\ @return\ the\ list\ with\ an\ item\ deleted\r\n
+comment3.params=
+comment3.target=SalesInfo[]\ toArray()
+comment3.text=\r\n\ makes\ array\ local\ the\ same\ as\ arraylist\ myPurchases\r\n
+comment4.params=myArr
+comment4.target=void\ printArray(SalesInfo[])
+comment4.text=\r\n\ \r\n
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=in_name\ in_age\ in_gender
+comment0.target=Child(java.lang.String,\ int,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Child\r\n
+comment1.params=
+comment1.target=void\ describeChild()
+comment1.text=\r\n\ \r\n
+comment2.params=
+comment2.target=int\ numKids()
+comment2.text=\r\n\ \r\n
+numComments=3

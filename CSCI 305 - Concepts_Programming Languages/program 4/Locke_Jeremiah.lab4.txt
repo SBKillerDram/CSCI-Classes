@@ -1,0 +1,108 @@
+Jeremiah Locke
+CSCI 305
+Lab 4
+
+1) ?-father (X, 'Queen Elizabeth II').
+   X = 'King George VI';
+   false.
+
+2) ?- grandmother(X, 'Queen Elizabeth II').
+   X = 'Queen Mary';
+   false.
+
+3) ?- grandfather(X, 'Queen Elizabeth II').
+   X = 'King George V';
+   false.
+
+4) ?- grandparent(X, 'Queen Elizabeth II').
+   X = 'King George V';
+   X = 'Queen Mary';
+   false.
+
+5) ?- grandparent('Queen Elizabeth II', X).
+   X = 'Prince William';
+   X = 'Prince Henry';
+   false.
+
+6) ?- sibling(X, 'Queen Elizabeth II').
+   X = 'Queen Elizabeth II';
+   X = 'Queen Elizabeth II';
+   X = 'Princess Margaret';
+   X = 'Princess Margaret';
+   false.
+
+7) ?- son(X, 'Queen Elizabeth II').
+   X = 'Prince Charles';
+   X = 'Prince Andrew';
+   X = 'Prince Edward'.
+
+8) ?- daughter(X, 'Queen Elizabeth II').
+   X = 'Princess Anne';
+   false.
+
+9) ?- aunt(X, 'Lady Diana Spencer').
+   false.
+   
+
+10) ?- spouse(X, 'Prince William').
+    x = 'Catherine Middleton'.
+
+11) ?- ancestor(X, 'Prince Henry').
+    X = 'Prince Charles';
+    X = 'Lady Diana Spencer';
+    X = 'Prince Albert';
+    X = 'Queen Victoria';
+    X = 'King Edward VII';
+    X = 'Princess Alexandra of Denmark';
+    X = 'King George V';
+    X = 'Queen Mary';
+    X = 'King George VI';
+    X = 'Lady Elizabeth Bowes-Lyon';
+    X = 'Queen Elizabeth II';
+    X = 'Prince Philip';
+    false.
+
+12) ?- descendant('Queen Victoria', X).
+    X = 'King Edward VII' ;
+    X = 'King George V' ;
+    X = 'King Edward VIII' ;
+    X = 'King George VI' ;
+    X = 'Queen Elizabeth II' ;
+    X = 'Princess Margaret' ;
+    X = 'Prince Charles' ;
+    X = 'Princess Anne' ;
+    X = 'Prince Andrew' ;
+    X = 'Prince Edward' ;
+    X = 'Prince William' ;
+    X = 'Prince Henry' ;
+    X = 'George Alexander Louis' ;
+    false.
+
+13) ?- older('Prince Henry', 'Prince William').
+    true.
+
+14) ?- older(X, 'Queen Elizabeth II').
+    X = 'Princess Margaret' ;
+    X = 'Lady Diana Spencer' ;
+    X = 'Princess Anne' ;
+    X = 'Catherine Middleton' ;
+    X = 'Prince Charles' ;
+    X = 'Prince Andrew' ;
+    X = 'Prince Edward' ;
+    X = 'Prince William' ;
+    X = 'Prince Henry' ;
+    X = 'George Alexander Louis'.
+
+15) ?- regentWhenBorn(X, 'Queen Elizabeth II').
+    X = 'King George V';
+    false.
+
+16) I like how easy it is to right rules.
+
+17) I didn't really find anything i disliked about prolog.
+
+18) I did like nor dislike this lab. 
+
+19) I spent about 6 hours on this lab.
+
+20) I don't know if i will use prolog again after this.

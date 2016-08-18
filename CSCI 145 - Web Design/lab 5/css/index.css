@@ -1,0 +1,30 @@
+body {
+	padding: 50px;
+	line-height: 130%;
+	letter-spacing: 1.5px;
+	word-spacing: 2.5px;
+
+}
+p{
+	font-family: 'Droid Serif', serif;
+	width: 600px;
+ }
+ 
+ h1{
+	font-family: 'Droid Serif', serif;
+	color: #734D01
+   }
+   
+ h4{
+	color: #E86700;
+	font-style: italic;
+	font-size: 20px;
+	
+}
+
+h2{
+	color: #9A1F04;
+	font-style: italic;
+	
+}
+

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=radius\ height
+comment0.target=double\ coneVolume(double,\ double)
+comment0.text=\r\n\ Computes\ the\ volume\ of\ a\ cone\r\n\ \r\n\ \r\n
+comment1.params=a\ b\ c
+comment1.target=double\ triangleArea(double,\ double,\ double)
+comment1.text=\r\n\ computes\ the\ are\ of\ a\ triangle\r\n\ \r\n
+comment2.params=bigRad\ smallRad\ height
+comment2.target=double\ cutConeVolume(double,\ double,\ double)
+comment2.text=\r\n\ \r\n
+comment3.params=value\ decimal
+comment3.target=double\ round(double,\ int)
+comment3.text=\r\n\ \r\n
+numComments=4

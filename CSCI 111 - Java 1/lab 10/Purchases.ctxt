@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ newPurchase()
+comment0.text=\r\n\ asks\ user\ to\ input\ object\ name\ unit\ price\ and\ quantity\r\n\ \r\n\ @param\ \ a\ b\ c\r\n\ @return\ \ \ \ \ a\ b\ c\ \r\n
+comment1.params=
+comment1.target=void\ allPurchases()
+comment1.text=\r\n\ \r\n
+numComments=2

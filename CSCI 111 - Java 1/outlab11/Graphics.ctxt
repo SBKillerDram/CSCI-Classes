@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=arr1\ arr2
+comment0.target=double\ dotProduct(double[],\ double[])
+comment0.text=\r\n\ gets\ the\ sum\ of\ all\ the\ elements\ add\ together\r\n\ @return\ \ dot\ product\ of\ arr1\ and\ arr2\r\n
+comment1.params=point1\ point2\ point3
+comment1.target=double\ cosine(Point3DC,\ Point3DC,\ Point3DC)
+comment1.text=\r\n\ gets\ the\ angle\ between\ two\ vectors\r\n\ @return\ angle\r\n
+comment2.params=u\ v
+comment2.target=Vector3D\ crossProduct(Vector3D,\ Vector3D)
+comment2.text=\r\n\ gets\ the\ cross\ product\ of\ two\ vector\r\n\ @return\ new\ vector\r\n
+comment3.params=point1\ point2\ point3
+comment3.target=Vector3D\ upVector(Point3DC,\ Point3DC,\ Point3DC)
+comment3.text=\r\n\ \ gets\ the\ upvector\ between\ two\ vectors\r\n\ \ @return\ up\ vector\r\n
+comment4.params=viewer\ onPlane\ upVec
+comment4.target=boolean\ cull(Point3DC,\ Point3DC,\ Vector3D)
+comment4.text=\r\n\ gets\ the\ dot\ product\ of\ two\ vectors\ and\ sees\ what\ side\ ur\ on\r\n\ @return\ true\ or\ false\r\n
+numComments=5

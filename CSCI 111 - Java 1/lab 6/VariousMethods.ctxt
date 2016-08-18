@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=age
+comment0.target=void\ dates1(int)
+comment0.text=\r\n\ tells\ what\ good\ happens\ at\ a\ certain\ age\r\n\ \r\n\ @param\ \ 16,18,60,62,80\r\n\ @return\ \ \ \ what\ happens\ at\ that\ age\ \r\n
+comment1.params=age
+comment1.target=void\ dates2(int)
+comment1.text=\r\n\ tells\ what\ good\ happens\ at\ a\ certain\ age\r\n
+comment2.params=v1\ v2\ v3\ v4\ v5\ v6
+comment2.target=int\ maxOf6(int,\ int,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ finds\ the\ biggest\ int\ in\ the\ group\ of\ six\ numbers\r\n
+numComments=3

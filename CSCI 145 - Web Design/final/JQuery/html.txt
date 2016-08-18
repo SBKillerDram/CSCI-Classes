@@ -1,0 +1,9 @@
+<div class="wrapper">
+			<div id="slider" class="s">
+				<img id="1" src="http://s5.postimg.org/9h7qu9dw7/images_3.jpg">
+				<img id="2" src="http://s5.postimg.org/4ju695bx3/images_4.jpg">
+				<img id="3" src="http://s5.postimg.org/48cpwdvh3/images_1.jpg">
+				<img id="4" src="http://s5.postimg.org/e729wluaf/images_2.jpg">
+			</div>
+			<a class="left" href="#">Previous</a> <a class="right" href="#">Next</a>
+		</div>

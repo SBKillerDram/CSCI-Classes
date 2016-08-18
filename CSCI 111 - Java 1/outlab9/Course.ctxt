@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=in_name\ in_numStudents
+comment0.target=Course(java.lang.String,\ int)
+comment0.text=\r\n\ initalizes\ variables\r\n
+comment1.params=
+comment1.target=void\ enterValues()
+comment1.text=\r\n\ gets\ the\ name\ and\ gpa\ for\ each\ student\ in\ the\ array\r\n\ @param\ name\ and\ gpa\r\n\ @return\ name\ and\ gpa\ \r\n
+comment2.params=
+comment2.target=void\ printValues()
+comment2.text=\r\n\ prints\ stuff\ out\r\n\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ highQuiz()
+comment3.text=\r\n\ returns\ students\ name\ with\ the\ highest\ quiz\ total\r\n
+comment4.params=
+comment4.target=java.lang.String\ highGPA()
+comment4.text=\r\n\ returns\ the\ students\ name\ with\ the\ biggest\ gpa\r\n
+numComments=5

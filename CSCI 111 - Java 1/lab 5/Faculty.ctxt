@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=in_rank\ in_department
+comment0.target=Faculty(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ all\ the\ if\ else\ statments\r\n
+comment1.params=
+comment1.target=void\ whoHasMore()
+comment1.text=\r\n\ Compares\ the\ number\ of\ faculty\ in\ computer\ science\ and\ electrical\ and\ computer\ engineering\ .\r\n\ \r\n
+comment2.params=
+comment2.target=void\ report()
+comment2.text=\r\n\ Prints\ out\ the\ number\ of\ faculty\ there\ are\ in\ each\ section\r\n
+numComments=3

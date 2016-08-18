@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=in_objectName\ in_unitPrice\ in_quantity
+comment0.target=SalesInfo(java.lang.String,\ double,\ int)
+comment0.text=\r\n\ initilizes\ variables\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ gets\ and\ returns\ the\ name\ of\ the\ object\r\n\ @return\ \ \ objectName\r\n
+comment2.params=
+comment2.target=double\ getPrice()
+comment2.text=\r\n\ returns\ the\ price\ of\ the\ unit\r\n\ @return\ unitprice\r\n
+comment3.params=
+comment3.target=int\ getQuantity()
+comment3.text=\r\n\ gets\ and\ returns\ the\ quantity\r\n\ @return\ quantity\r\n
+comment4.params=
+comment4.target=double\ purchaseCost()
+comment4.text=\r\n\ caculates\ the\ cost\r\n\ @return\ purchase\ cost\r\n
+numComments=5

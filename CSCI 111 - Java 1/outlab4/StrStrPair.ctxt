@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=in_cutName\ in_lastChar
+comment0.target=StrStrPair(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ StrStrPair\r\n
+comment1.params=
+comment1.target=java.lang.String\ getCutName()
+comment1.text=\r\n\ method\ for\ returning\ cutname\r\n
+comment2.params=
+comment2.target=java.lang.String\ getLastChar()
+comment2.text=\r\n\ method\ for\ returning\ lastchar\r\n
+numComments=3

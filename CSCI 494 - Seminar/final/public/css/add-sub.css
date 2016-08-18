@@ -1,0 +1,10 @@
+.container{
+	width:1100px;	
+}
+#buttons{
+	padding-top: 15px;
+}
+#ASButton{
+	display: flex;
+	justify-content: center;
+}

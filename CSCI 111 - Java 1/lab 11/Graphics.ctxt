@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=arr1\ arr2
+comment0.target=double\ dotProduct(double[],\ double[])
+comment0.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment1.params=point1\ point2\ point3
+comment1.target=double\ cosine(Point3DC,\ Point3DC,\ Point3DC)
+comment1.text=\r\n\ \r\n
+numComments=2

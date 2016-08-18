@@ -1,0 +1,35 @@
+#mainPic {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 85%;
+	}	
+#bigBox {
+	width: 85%;
+	height: 227px;
+	margin: auto;
+	margin-top: 25px;
+	}
+.box {
+	float: left;
+	width: 31%;
+	height: 225px;
+	}
+.text {
+	padding-left: 6px;
+	padding-right: 25px;
+	}
+.news{
+	padding-left: 25px;
+	}
+#hpmid {
+	height: 100%;
+	width: 100%;
+	}
+	
+#box3{
+	float: left;
+	width: 33%;
+	height: 225px;
+	overflow-y: scroll;	
+	}

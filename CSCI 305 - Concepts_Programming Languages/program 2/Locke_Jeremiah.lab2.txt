@@ -1,0 +1,20 @@
+1) I implemented LastPlayBot by creating 2 seperate methods. One method was for player 1 and the second method
+	was for player 2.
+2) The strategy I chose to use with Mybot is to make it so that Mybot always makes the game ties.
+	I did this by setting up a variable that detemines is P1 or P2 is Mybot then that determins the order
+	in which the player that choose Mybot chooses its choice.
+3) 
+4) I have found that if i play against RandomBot its generally a close game. Otherwise I can beat the StupidBot
+	IterativeBot and the LastPlayBot pretty easly because I know what they are going do.
+5) In our programs no I don't think iit is possible to design a player to have a better chance of winning
+	because mostly (unless you know how the opentant was programmed to play) each move from the oppenant is
+	random. Now you can design a bot to always pick something that will be the oppenant or have it narrow
+	its' choices to pick from based on the oppenants pick but that is not a "fair" player design.
+6) One thing I like is how I don't have to put ; at the end of each line
+7) I didn't really run into anything I disliked. Altho it did take a little bit to get use to white-space
+	being important.
+8) I did like this lab. I liked creating my own bot to most; altho it did take me a while to figure out how
+	I wanted to make it.
+9) I spent about 15 hours on it I think.
+10) I don't know if I will use Python again because i still haven't really decided where I am going with my
+	Computer Science degree once I get it.

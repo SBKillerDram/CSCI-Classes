@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=in_int1\ in_int2\ in_double1
+comment0.target=IntIntDouble(int,\ int,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ IntIntDouble\r\n
+comment1.params=
+comment1.target=int\ getInt1()
+comment1.text=\r\n\ gets\ int1\r\n\ @return\ int1\r\n
+comment2.params=
+comment2.target=int\ getInt2()
+comment2.text=\r\n\ gets\ int2\r\n\ @return\ int2\r\n
+comment3.params=
+comment3.target=double\ getDouble1()
+comment3.text=\r\n\ gets\ double1\r\n\ @return\ double1\r\n
+numComments=4

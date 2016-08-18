@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=in_name\ in_numStudents
+comment0.target=Course(java.lang.String,\ int)
+comment0.text=\r\n\ initalizes\ variables\r\n
+comment1.params=
+comment1.target=void\ enterValues()
+comment1.text=\r\n\ gets\ the\ name\ and\ gpa\ for\ each\ student\ in\ the\ array\r\n\ @param\ name\ and\ gpa\r\n\ @return\ name\ and\ gpa\ \r\n
+comment2.params=
+comment2.target=void\ printValues()
+comment2.text=\r\n\ \r\n\ \r\n\ \r\n
+numComments=3

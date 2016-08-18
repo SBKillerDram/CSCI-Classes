@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=myArr1D
+comment0.target=void\ print1DArr(int[])
+comment0.text=\r\n\ prints\ out\ all\ elements\ of\ the\ array\r\n
+comment1.params=myArr2D
+comment1.target=void\ print2DArr1(int[][])
+comment1.text=\r\n\ prints\ each\ element\ in\ array\ with\ each\ row\ being\ a\ new\ line\r\n
+comment2.params=myArr2D
+comment2.target=void\ print2DArr2(int[][])
+comment2.text=\r\n\ prints\ each\ element\ in\ 2d\ array\ using\ the\ method\ print1DArr\r\n
+comment3.params=myArr2D
+comment3.target=void\ transpose(int[][])
+comment3.text=\r\n\ prints\ out\ the\ array\ with\ the\ columns\ and\ rows\ switched\r\n
+comment4.params=myArr2D\ rowNum
+comment4.target=int[]\ getRow(int[][],\ int)
+comment4.text=\r\n\ returns\ the\ numbers\ in\ the\ row\r\n
+comment5.params=myArr2D\ colNum
+comment5.target=int[]\ getColumn(int[][],\ int)
+comment5.text=\r\n\ returns\ the\ numbers\ in\ any\ given\ column\r\n
+numComments=6

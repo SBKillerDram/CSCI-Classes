@@ -1,0 +1,26 @@
+Jeremiah Locke
+1)  '(4 2 5 2 6 10)
+2) This function increases each number in the list by one
+3) It checks to see it the list is null
+4) It creates an empty set
+5) It adds 1 to the first item in the list then calls f with the second second item in the list
+6) cons (+ 1 3) (f ( 1 4 1 5 9))
+   cons (+ 1 1) (f ( 4 1 5 9))
+   cons (+ 1 4) (f (1 5 9))
+   cons (+ 1 1) (f (5 9))
+   cons (+ 1 5) (f (9))
+   cons (+ 1 9) (f ())
+   '()
+7) #f
+8) member? uses head recursion
+9) #f
+10) Tail recursion can be beneficail to use when trying to optimize the compiler effeincy because the language will
+	regonize when you are doing it and will reuse the current frame instead of adding a new one on the stack each
+	time the call is made.
+11) '(green eggs and ham)
+12) '(and macaroni)
+13) I like easy to understand and use Dr. racket was to use and understand. It made learning scheme alot easier.
+14) I disliked how the mit-gnu scheme was setup. I found it very confusing.
+15) I didn't really enjoy this lab but i didn't dislike it either. I just kinda found it eh.
+16) 6 hrs
+17) I don't know if I will be using scheme again.

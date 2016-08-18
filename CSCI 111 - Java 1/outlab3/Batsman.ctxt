@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=in_name\ in_matches\ in_innings\ in_notOut\ in_runs\ in_ballsFaced
+comment0.target=Batsman(java.lang.String,\ int,\ int,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Batsman\r\n
+comment1.params=
+comment1.target=double\ average()
+comment1.text=\r\n\ gets\ the\ average\ of\ the\ batsman\r\n\ \ \r\n
+comment2.params=
+comment2.target=double\ scoringRate()
+comment2.text=\r\n\ gets\ the\ score\ rate\ of\ the\ batsman\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ gets\ the\ batsman\ name\r\n
+comment4.params=
+comment4.target=int\ getMatches()
+comment4.text=\r\n\ gets\ the\ batsman\ matches\r\n
+comment5.params=
+comment5.target=void\ batinfo()
+comment5.text=\r\n\ \r\n
+numComments=6

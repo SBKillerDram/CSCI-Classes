@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=in_int1\ in_int2\ in_int3
+comment0.target=ThreeInts(int,\ int,\ int)
+comment1.params=
+comment1.target=int\ getInt1()
+comment1.text=\r\n\ gets\ and\ returns\ int1\r\n
+comment2.params=
+comment2.target=int\ getInt2()
+comment2.text=\r\n\ gets\ and\ returns\ int2\r\n
+comment3.params=
+comment3.target=int\ getInt3()
+comment3.text=\r\n\ gets\ and\ returns\ int3\r\n
+comment4.params=
+comment4.target=void\ outvals()
+comment4.text=\r\n\ prints\ out\ int1\ int2\ int3\r\n
+numComments=5

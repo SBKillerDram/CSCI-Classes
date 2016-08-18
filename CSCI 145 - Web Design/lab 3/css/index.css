@@ -1,0 +1,48 @@
+h1 {
+
+  font-family: sans-serif;
+  background-color: #E6E6BE;
+  font-size: 50px;
+  text-align: center;
+
+ }
+
+h2 {
+	
+	font-family: serif;
+	font-size: 30px;
+	background-color: #FF0000;
+	font-style: italic;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+ }
+
+
+
+p {
+
+  text-decoration: overline;
+  font-weight: 900;
+ }
+
+body {
+
+  background-image: url("../images/prettyPattern.gif");
+  background-repeat: repeat;
+ }
+
+a.one:hover{
+
+	color: red;
+	text-transform: uppercase;
+	background-color: #FFFF96;
+	text-decoration: none;	
+ }
+
+b{
+	color: blue;
+ }
+
+li {
+	padding-left: 5px;
+ }

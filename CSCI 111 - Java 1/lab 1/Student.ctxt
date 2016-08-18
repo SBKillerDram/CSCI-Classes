@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=in_name\ in_credits\ in_qualityPoints
+comment0.target=Student(java.lang.String,\ int,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ student\r\n
+comment1.params=
+comment1.target=double\ gpa()
+comment1.text=\r\n\ Compute\ the\ student's\ GPA\r\n\ \r\n\ @return\ quality\ points\ divided\ by\ credits\r\n
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=in_firstName\ in_lastName\ in_ballsBowled\ in_runs\ in_wickets
+comment0.target=Bowler(java.lang.String,\ java.lang.String,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bowler\r\n
+comment1.params=
+comment1.target=double\ average()
+comment1.text=\r\n\ computs\ the\ bowlers\ average\ by\ dividing\ the\ runs\ by\ the\ wickets\r\n\ \r\n
+comment2.params=
+comment2.target=double\ economy()
+comment2.text=\r\n\ computes\ the\ bowlers\ economy\ by\ dividing\ the\ runs\ by\ the\ balls\ bowled\ then\ multipying\ by\ 6\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ gets\ the\ bowlers\ name\r\n
+numComments=4

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/news.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="navbar" class="container-fluid"><div class="row-fluid">
+		<h2><a href="/"><div class="col-xs-4">Home Page</div></a> </h2>
+		<h2><a href="/news"><div class="col-xs-4">News</div></a> </h2>
+		<h2><a href="/pics"><div class="col-xs-4">Pictures</div></a> </h2>
+	</div></div>
+	<div id="list" class="container-fluid"><div class="row-fluid">
+
+		<%
+		for(var i=0; i<data.length; i++) {
+			var post = data[i];			
+			switch(post.type){				
+				case "picture":
+		%>
+					<div class="show picture col-xs-12 col-sm-6 col-md-4">
+						<p class="content lead"><%=post.content%></p>
+						<div><img src="<%=post.imgUrl%>" alt="<%=post.imgUrl%>"/></div>
+						<p class="date"><%=new Date(post.datePublished).toUTCString()%></p>
+					</div>
+			<%
+				break;
+				case "news":
+			%>
+					<div class="show news col-xs-12 col-sm-6 col-md-4">
+						<h2 class="heading"><a href="#<%=post.url%>" class="headinglink"><%=post.heading%></a></h2>
+						<p class="content"><%=post.content%></p>
+						<p class="author"><%=post.author%></p>
+						<p class="date"><%=new Date(post.datePublished).toUTCString()%></p>
+						<p class="email"><a href="<%=post.email%>">Email</a></p>
+					</div>
+			<%
+				break;
+				case "link":
+			%>
+					<div class="show link col-xs-12 col-sm-6 col-md-4">
+						<p class="content"><%=post.content%></p>
+						<p class="date"><%=new Date(post.datePublished).toUTCString()%></p>
+					</div>
+			<%
+				break;
+			}%>
+		<% } %>
+	</div></div>
+</body>
+</html>

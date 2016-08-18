@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Addition and Subtraction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/add-sub.css" />
+	<link rel="stylesheet" href="../public/css/header.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="../public/scripts/ASScripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
+</head>
+<body onload="AWGenerate(); ANGenerate(); SWGenerate(); SNGenerate();">
+<div class="container">
+	<div class="header">
+		<div class="left_header">
+		<img src="../public/images/left.png" alt="thumbnail"/>
+		
+		</div>
+		<div class="mid_header">
+		<img src="../public/images/mid.png" alt="thumbnail"/>
+		
+		</div>
+		<div class="right_header">
+		<img src="../public/images/right.png" alt="thumbnail"/>
+		
+		</div>
+	</div>
+	<div id="nav">
+	
+	<ul class="nav-menu" id="main-nav">
+        <li class="active"><a href="index.ejs">Home</a></li>
+        <li><a href="add-sub.ejs">Add and Subtract</a></li>
+		<li><a href="mult-div.ejs">Multiply and Divide</a></li>
+    </ul>
+	
+	</div>
+	
+	<div class="col-xs-12 col-sm-12 col-md-12">
+		<ul id ="ASButton" class="nav nav-pills">
+			<li class="active"><a data-toggle="pill" href="#add">Add</a></li>
+			<li><a data-toggle="pill" href="#sub">Sub</a></li>
+		</ul>
+    <div class="tab-content">
+        <div class="tab-pane fade active in" id="add">
+            <div class="tabbable">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#aword">Word problems</a>
+                    </li>
+                    <li><a data-toggle="tab" href="#anumber">Numerical problems</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="aword">
+						<div class="container-fluid"><div class="row-fluid">
+                        <div class="form-group">
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="aw1">This is questions 1.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="awi1">
+								<p id="awa1"></p>
+							</div>
+						
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="aw2">This is questions 2.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="awi2">
+								<p id="awa2"></p>
+							</div>
+						
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="aw3">This is questions 3.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="awi3">
+								<p id="awa3"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="aw4">This is questions 4.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="awi4">
+								<p id="awa4"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="aw5">This is questions 5.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="awi5">
+								<p id="awa5"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="aw6">This is questions 6.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="awi6">
+								<p id="awa6"></p>
+							</div>	
+						</div></div></div>
+						<div id="buttons" class="container-fluid"><div class="row-fluid">
+							<div id="subBut" class="col-xs-12 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4">
+								<button value="Send" type="submit" class="btn btn-primary btn-lg" onclick="AWEval()">Submit</button>
+							</div>
+							
+							<div id="nexBut" class="col-xs-12 col-sm-2 col-sm-offset-2 ">
+								<button type="button" class="btn btn-success btn-lg" onclick="AWGenerate()">Next</button>
+							</div>
+						</div></div>
+                    </div>
+                    <div class="tab-pane fade" id="anumber">
+						<div class="container-fluid"><div class="row-fluid">
+                        <div class="form-group">
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="an1">This is questions 1.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="ani1">
+								<p id="ana1"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="an2">This is questions 2.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="ani2">
+								<p id="ana2"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="an3">This is questions 3.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="ani3">
+								<p id="ana3"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="an4">This is questions 4.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="ani4">
+								<p id="ana4"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="an5">This is questions 5.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="ani5">
+								<p id="ana5"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="an6">This is questions 6.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="ani6">
+								<p id="ana6"></p>
+							</div>
+						</div></div></div>
+						<div id="buttons" class="container-fluid"><div class="row-fluid">
+							<div id="subBut" class="col-xs-12 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4">
+								<button value="Send" type="submit" class="btn btn-primary btn-lg" onclick="ANEval()">Submit</button>
+							</div>
+							
+							<div id="nexBut" class="col-xs-12 col-sm-2 col-sm-offset-2 ">
+								<button type="button" class="btn btn-success btn-lg" onclick="ANGenerate()">Next</button>
+							</div>
+						</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="sub">
+            <div class="tabbable">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#sword">Word problems</a>
+                    </li>
+                    <li><a data-toggle="tab" href="#snumber">Numerical problems</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="sword">
+						<div class="container-fluid"><div class="row-fluid">
+                        <div class="form-group">
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sw1">This is questions 1.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="swi1">
+								<p id="swa1"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sw2">This is questions 2.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="swi2">
+								<p id="swa2"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sw3">This is questions 3.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="swi3">
+								<p id="swa3"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sw4">This is questions 4.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="swi4">
+								<p id="swa4"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sw5">This is questions 5.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="swi5">
+								<p id="swa5"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sw6">This is questions 6.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="swi6">
+								<p id="swa6"></p>
+							</div>	
+						</div></div></div>
+						<div id="buttons" class="container-fluid"><div class="row-fluid">
+							<div id="subBut" class="col-xs-12 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4">
+								<button value="Send" type="submit" class="btn btn-primary btn-lg" onclick="SWEval()">Submit</button>
+							</div>
+							
+							<div id="nexBut" class="col-xs-12 col-sm-2 col-sm-offset-2 ">
+								<button type="button" class="btn btn-success btn-lg" onclick="SWGenerate()">Next</button>
+							</div>
+						</div></div>
+                    </div>
+                    <div class="tab-pane fade" id="snumber">
+						<div class="container-fluid"><div class="row-fluid">
+                        <div class="form-group">
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sn1">This is questions 1.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="sni1">
+								<p id="sna1"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sn2">This is questions 2.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="sni2">
+								<p id="sna2"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sn3">This is questions 3.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="sni3">
+								<p id="sna3"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sn4">This is questions 4.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="sni4">
+								<p id="sna4"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sn5">This is questions 5.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="sni5">
+								<p id="sna5"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="sn6">This is questions 6.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="sni6">
+								<p id="sna6"></p>
+							</div>
+						</div></div></div>
+						<div id="buttons" class="container-fluid"><div class="row-fluid">
+							<div id="subBut" class="col-xs-12 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4">
+								<button value="Send" type="submit" class="btn btn-primary btn-lg" onclick="SNEval()">Submit</button>
+							</div>
+							
+							<div id="nexBut" class="col-xs-12 col-sm-2 col-sm-offset-2 ">
+								<button type="button" class="btn btn-success btn-lg" onclick="SNGenerate()">Next</button>
+							</div>
+						</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

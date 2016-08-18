@@ -1,0 +1,10 @@
+Target Users:
+	People that are trying to learn basic mathmatical operations.
+
+Website Stategy:
+	We split the project into two parts: homepage and math sections.
+	For the homepage we have the create account and login sections. Here we were unable to create a way to store
+	the username and password to make it presistent.
+	For the math section we have it to randomly pick questions and randomly generate numbers. The user then fills
+	in their answer and hits submit to check their answer and they are told which ones are correct or not and they
+	are able to retry the incorrect ones again. The next next gets thm a new set of questions.

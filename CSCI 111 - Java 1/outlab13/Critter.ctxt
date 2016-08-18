@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ determines\ what\ way\ they\ move\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ Move\ one\ cell\ forward\ in\ the\ current\ direction.\r\n
+comment2.params=
+comment2.target=boolean\ canMove()
+comment2.text=\r\n\ Test\ if\ we\ can\ move\ forward.\ Return\ true\ if\ we\ can,\ false\ otherwise.\r\n
+comment3.params=
+comment3.target=void\ turnLeft()
+comment3.text=\r\n\ Turns\ towards\ the\ left.\r\n
+comment4.params=
+comment4.target=void\ turnRight()
+comment4.text=\r\n\ turns\ towards\ the\ right\r\n
+comment5.params=direction
+comment5.target=void\ setDirection(int)
+comment5.text=\r\n\ Sets\ the\ direction\ we're\ facing.\r\n
+numComments=6

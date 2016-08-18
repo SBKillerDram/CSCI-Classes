@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=in_x\ in_y\ in_z
+comment0.target=Point3DC(double,\ double,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Point3DC\r\n
+comment1.params=
+comment1.target=double[]\ getValues()
+comment1.text=\r\n\ gets\ and\ returns\ pointArr\r\n\ \r\n\ @return\ \ array\ pointArr\r\n
+comment2.params=
+comment2.target=java.lang.String\ formatPoint()
+comment2.text=\r\n\ @return\ returns\ the\ array\ pointArr\ in\ a\ string\ format\r\n
+numComments=3

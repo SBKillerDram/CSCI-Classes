@@ -1,0 +1,40 @@
+img {
+    max-width: 800px;
+}
+a {
+    color: #00CC00;
+}
+#list > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.show {
+    display: inline-block;
+    padding-top: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #000066;
+    color: #aaa;
+    border-left: solid 1px #333;
+    border-right: solid 1px #333;
+}
+
+.author {
+	text-align: right;
+}
+.date {
+	text-align: right;
+}
+ .email {
+    text-align: right;
+}
+.picture > div {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.picture > div > img {
+    padding-bottom: 10px;
+    overflow: hidden;
+    height: 200px;
+}

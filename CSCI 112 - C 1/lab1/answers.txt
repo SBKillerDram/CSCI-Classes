@@ -1,0 +1,17 @@
+answers.txt
+Jeremiah Locke, CSCI112, Lab01
+1/22/12
+
+1. My shell prompt looks like a black box with the normal border around it.
+
+2. It just brought up the same line that i typed ls into because there are no
+     directories in it.
+
+3. In the command line type mkdir cs201.
+
+4. By using the commands ls and cd you navigate your way thru your folders till       you get to the desirded folder and in this case it is cs201.
+
+5. The three ways are by typing one of these commands "cd /"(goes start to
+     home), "cd .." (takes you back one), "cd <pathname>".
+
+6. I do not know.

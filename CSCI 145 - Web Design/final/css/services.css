@@ -1,0 +1,22 @@
+.row {
+	width: 100%;
+	display: inline-block;
+	height: 300px;
+}
+.textBox {
+	width: 65%;
+	float: left;
+	padding-left: 20px;
+	}
+.top {
+	margin-top: 25px;
+}
+.picBox {
+	width:25%;
+	float: right;
+	padding-top: 21px;
+	padding-right: 25px;
+	}
+.pic {
+	width: 100%;
+	}

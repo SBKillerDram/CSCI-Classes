@@ -1,0 +1,198 @@
+html, body {
+	margin: 0px;
+	padding:0px;
+	background-image:url(../images/bg.gif);
+	font-family:"Trebuchet MS";
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, p, form {
+	margin: 0px;
+	padding:0px;
+	text-decoration:none;
+
+}
+a{
+	font-family:"Trebuchet MS";
+	font-size:11px;
+	color:#fff;
+	font-weight:normal;
+	text-decoration:none;
+}
+#wrapper {
+	/*width:800px;*/
+	margin:0px auto;
+	background-color:#FFF;
+}
+
+#content {
+	/*width:778px;*/
+	margin:0px auto;
+	background-image:url(../images/main_img.png);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+
+#header {
+	height:191px;
+}
+
+#logo {
+	/*width:258px;*/
+	float:left;
+}
+
+#logo h1{
+	font-family:"Trebuchet MS";
+	font-size:26px;
+	color:#F76B0C;
+	font-weight:normal;
+	padding-left:40px;
+	padding-top:30px;
+}
+
+#logo h4 {
+	color:#808080;
+	padding-left:75px;
+}
+
+#links ul {
+	margin:0px;
+	padding-top:67px;
+}
+
+#links li{
+	float:left;
+	list-style-type:none;
+	width:129px;
+	height:25px;
+	text-align:center;
+	background-color:#F4A80A;
+	border-left:1px solid #FFF;
+	padding-top:4px;
+}
+
+#links a{
+	color:#fff;
+}
+#links a:hover{
+	color:#fff;
+}
+#contentarea {
+	clear:both;
+	padding:25px 0px;
+}
+
+#leftbar {
+	float:left;
+	/*width:539px;*/
+	border-right:1px solid #BCBDBC;
+}
+
+#leftbar h2{
+	font-size:26px;
+	color:#EE8907;
+	padding-left:40px;
+	padding-bottom:5px;
+}
+
+#leftbar p{
+	color:#797B7A;
+	padding:0px 40px;
+}
+
+#leftbar a {
+	color:#EE8907;
+	padding:0px 40px;
+}
+
+#leftbar a:hover {
+	color:#000;
+	padding:0px 40px;
+}
+
+#rightbar {
+	float:left;
+	/*width:237px;*/
+}
+
+#rightbar h2{
+	font-size:26px;
+	color:#797B7A;
+	padding-left:25px;
+	padding-bottom:5px;
+}
+
+#rightbar p{
+	color:#797B7A;
+	padding:0px 25px;
+	margin: 10px 0px;
+}
+
+.orangetext {
+	color:#EE8907;
+	font-weight:bold;
+}
+
+#bottom {
+	clear:both;
+	height:32px;
+	padding-top:25px;
+	background-color:#006847;
+}
+
+#email {
+	float:left;
+	width:70%;
+	height:27px;
+	padding-top:5px;
+}
+
+#email a{
+	text-decoration:underline;
+	padding:0px 40px;
+}
+
+#email a:hover{
+	padding:0px 40px;
+}
+
+#validtext {
+	float:left;
+	width:30%;
+	height:27px;
+	padding-top:5px;
+}
+
+#validtext p{
+	text-align:right;
+	padding-right:35px;
+}
+
+#validtext a{
+	text-decoration:underline;
+}
+
+#validtext a:hover{
+	color:#000;
+}
+/*
+	Responsive Navigation
+*/
+/*
+@media only screen and (max-width: 768px) {
+    #links {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+    }
+    #links li {
+        display: inline;
+    }
+    #links li a {
+        float: left;
+        border: none;
+        padding: 0 10px;
+    }
+}
+*/

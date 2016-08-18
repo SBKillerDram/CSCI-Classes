@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ personInfo()
+comment0.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ first\ name\ last\ name\ and\ height\ and\ ddaughters\ name\r\n\ @return\ \ \ \ \ names\ and\ hieght\r\n
+comment1.params=n
+comment1.target=void\ forTest(int)
+comment1.text=\r\n\ gets\ the\ average\ of\ n\ varibales\r\n\ @param\ n\ doubles\r\n\ @return\ average\ of\ n\ doubles\r\n
+comment2.params=
+comment2.target=double\ whileTest()
+comment2.text=\r\n\ returns\ biggest\ number\ after\ -1.0\ is\ entered\r\n\ @param\ n\ doubles\r\n\ @return\ biggest\ number\r\n
+comment3.params=
+comment3.target=IntIntDouble\ doWhileTest()
+comment3.text=\r\n\ \r\n
+numComments=4

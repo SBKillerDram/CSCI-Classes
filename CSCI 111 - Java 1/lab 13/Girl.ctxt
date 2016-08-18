@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=name\ age\ in_hobby\ in_sport
+comment0.target=Girl(java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Girl\r\n
+comment1.params=
+comment1.target=void\ describeGirl()
+comment1.text=\r\n\ prints\ stuff\ out\ if\ the\ gender\ is\ female\r\n
+numComments=2

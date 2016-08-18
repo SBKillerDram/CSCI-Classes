@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=in_name\ in_gpa
+comment0.target=Student(java.lang.String,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Student\r\n
+comment1.params=
+comment1.target=void\ getQuizzes()
+comment1.text=\r\n\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ gets\ name\r\n\ @return\ \ \ \ \ returns\ name\ \r\n
+comment3.params=
+comment3.target=double\ getGPA()
+comment3.text=\r\n\ gets\ gpa\r\n\ @return\ gpa\r\n
+comment4.params=
+comment4.target=int\ quizTotal()
+comment4.text=\r\n\ finds\ the\ lowest\ quiz\ grade\ and\ gets\ the\ quiz\ total\ with\ the\ lowest\ one\ dropped\r\n\ @return\ total\ quiz\ score\r\n
+numComments=5

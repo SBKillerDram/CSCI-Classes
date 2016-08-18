@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=in_x\ in_y\ in_z
+comment0.target=Vector3D(double,\ double,\ double)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Vector3D\r\n
+comment1.params=head\ tail
+comment1.target=Vector3D(Point3DC,\ Point3DC)
+comment1.text=\r\nsecond\ constructor\r\n
+comment2.params=
+comment2.target=double[]\ getValues()
+comment2.text=\r\n\ gets\ and\ returns\ vectorArr\r\n\ @return\ vectorArr\r\n
+comment3.params=
+comment3.target=double\ size()
+comment3.text=\r\n\ returns\ the\ size\ of\ the\ magnitude\ of\ the\ vector\r\n\ @return\ size\r\n
+comment4.params=
+comment4.target=void\ normalize()
+comment4.text=\r\n\ divides\ each\ component\ by\ the\ length\r\n\ @return\ compenents\ normalized\r\n
+comment5.params=
+comment5.target=java.lang.String\ formatVector()
+comment5.text=\r\n\ formats\ the\ vector\ into\ a\ string\r\n
+numComments=6

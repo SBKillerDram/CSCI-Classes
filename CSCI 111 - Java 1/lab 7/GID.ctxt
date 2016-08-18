@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=in_name\ in_gid
+comment0.target=GID(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ this\ is\ the\ constructor\r\n
+comment1.params=
+comment1.target=int\ removeStar()
+comment1.text=\r\n\ takes\ away\ first\ character\ of\ gid\r\n
+comment2.params=
+comment2.target=void\ printInfo()
+comment2.text=\r\n\ prints\ students\ name\ and\ gid\r\n\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ maxGID()
+comment3.text=\r\n\ returns\ the\ biggest\ gid\r\n\ @return\ biggest\ gid\r\n
+comment4.params=
+comment4.target=java.lang.String\ maxName()
+comment4.text=\r\n\ returns\ the\ name\ of\ the\ name\ with\ the\ biggest\ gid\r\n\ @return\ name\ with\ largest\ gid\r\n
+numComments=5

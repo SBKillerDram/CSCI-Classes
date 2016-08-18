@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=age
+comment0.target=void\ dates1(int)
+comment0.text=\r\n\ tells\ what\ good\ happens\ at\ a\ certain\ age\r\n\ \r\n\ @param\ \ 16,18,60,62,80\r\n\ @return\ \ \ \ what\ happens\ at\ that\ age\ \r\n
+comment1.params=age
+comment1.target=void\ dates2(int)
+comment1.text=\r\n\ tells\ what\ good\ happens\ at\ a\ certain\ age\r\n
+comment2.params=v1\ v2\ v3\ v4\ v5\ v6
+comment2.target=int\ maxOf6(int,\ int,\ int,\ int,\ int,\ int)
+comment2.text=\r\n\ finds\ the\ biggest\ int\ in\ the\ group\ of\ six\ numbers\r\n
+comment3.params=v1\ v2\ v3\ v4\ v5\ v6
+comment3.target=ThreeInts\ min3Of6(int,\ int,\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ finds\ the\ three\ smallest\ values\ in\ a\ group\ of\ 6\r\n
+comment4.params=v1\ v2\ v3\ v4\ v5\ v6
+comment4.target=ThreeInts\ max3Of6(int,\ int,\ int,\ int,\ int,\ int)
+comment4.text=\r\n\ finds\ the\ 3\ biggest\ numbers\ in\ a\ group\ of\ 6\r\n
+comment5.params=v1\ v2\ v3\ v4\ v5\ v6
+comment5.target=void\ sort6(int,\ int,\ int,\ int,\ int,\ int)
+comment5.text=\r\n\ sorts\ the\ 6\ numbers\ in\ acending\ order\r\n
+numComments=6

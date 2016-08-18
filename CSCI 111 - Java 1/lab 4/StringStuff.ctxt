@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=original\ cut
+comment0.target=java.lang.String\ cutOut(java.lang.String,\ java.lang.String)
+comment0.text=\r\nThis\ cuts\ out\ a\ part\ of\ a\ string\ and\ then\ pastes\ the\ two\ ends\ left\ together\ \r\n\ \r\n\ @param\ \ \r\n\ @return\ \ \ \ \ \ \r\n
+numComments=1

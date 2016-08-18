@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication and Division</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/mult-div.css" />
+	<link rel="stylesheet" href="../public/css/header.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="../public/scripts/MDScripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
+</head>
+<body onload="MWGenerate(); MNGenerate(); DWGenerate(); DNGenerate();">
+<div class="container">
+	<div class="header">
+		<div class="left_header">
+		<img src="../public/images/left.png" alt="thumbnail"/>
+		
+		</div>
+		<div class="mid_header">
+		<img src="../public/images/mid.png" alt="thumbnail"/>
+		
+		</div>
+		<div class="right_header">
+		<img src="../public/images/right.png" alt="thumbnail"/>
+		
+		</div>
+	</div>
+	<div id="nav">
+	
+	<ul class="nav-menu" id="main-nav">
+        <li class="active"><a href="index.ejs">Home</a></li>
+        <li><a href="add-sub.ejs">Add and Subtract</a></li>
+		<li><a href="mult-div.ejs">Multiply and Divide</a></li>
+    </ul>
+	
+	</div>
+	
+	<div class="col-xs-12 col-sm-12 col-md-12">
+		<ul id ="MDButton" class="nav nav-pills">
+			<li class="active"><a data-toggle="pill" href="#mult">Mult</a></li>
+			<li><a data-toggle="pill" href="#div">Div</a></li>
+		</ul>
+    <div class="tab-content">
+        <div class="tab-pane fade active in" id="mult">
+            <div class="tabbable">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#mword">Word problems</a>
+                    </li>
+                    <li><a data-toggle="tab" href="#mnumber">Numerical problems</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="mword">
+						<div class="container-fluid"><div class="row-fluid">
+                        <div class="form-group">
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mw1">This is questions 1.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="mwi1">
+								<p id="mwa1"></p>
+							</div>
+						
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mw2">This is questions 2.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="mwi2">
+								<p id="mwa2"></p>
+							</div>
+						
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mw3">This is questions 3.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="mwi3">
+								<p id="mwa3"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mw4">This is questions 4.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="mwi4">
+								<p id="mwa4"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mw5">This is questions 5.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="mwi5">
+								<p id="mwa5"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mw6">This is questions 6.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id ="mwi6">
+								<p id="mwa6"></p>
+							</div>	
+						</div></div></div>
+						<div id="buttons" class="container-fluid"><div class="row-fluid">
+							<div id="subBut" class="col-xs-12 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4">
+								<button value="Send" type="submit" class="btn btn-primary btn-lg" onclick="MWEval()">Submit</button>
+							</div>
+							
+							<div id="nexBut" class="col-xs-12 col-sm-2 col-sm-offset-2 ">
+								<button type="button" class="btn btn-success btn-lg" onclick="MWGenerate()">Next</button>
+							</div>
+						</div></div>
+                    </div>
+                    <div class="tab-pane fade" id="mnumber">
+						<div class="container-fluid"><div class="row-fluid">
+                        <div class="form-group">
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mn1">This is questions 1.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="mni1">
+								<p id="mna1"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mn2">This is questions 2.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="mni2">
+								<p id="mna2"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mn3">This is questions 3.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="mni3">
+								<p id="mna3"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mn4">This is questions 4.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="mni4">
+								<p id="mna4"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mn5">This is questions 5.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="mni5">
+								<p id="mna5"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="mn6">This is questions 6.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="5" id="mni6">
+								<p id="mna6"></p>
+							</div>
+						</div></div></div>
+						<div id="buttons" class="container-fluid"><div class="row-fluid">
+							<div id="subBut" class="col-xs-12 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4">
+								<button value="Send" type="submit" class="btn btn-primary btn-lg" onclick="MNEval()">Submit</button>
+							</div>
+							
+							<div id="nexBut" class="col-xs-12 col-sm-2 col-sm-offset-2 ">
+								<button type="button" class="btn btn-success btn-lg" onclick="MNGenerate()">Next</button>
+							</div>
+						</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="div">
+            <div class="tabbable">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#dword">Word problems</a>
+                    </li>
+                    <li><a data-toggle="tab" href="#dnumber">Numerical problems</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="dword">
+						<div class="container-fluid"><div class="row-fluid">
+                        <div class="form-group">
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dw1">This is questions 1.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dwi1">
+								<p id="dwa1"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dw2">This is questions 2.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dwi2">
+								<p id="dwa2"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dw3">This is questions 3.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dwi3">
+								<p id="dwa3"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dw4">This is questions 4.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dwi4">
+								<p id="dwa4"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dw5">This is questions 5.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dwi5">
+								<p id="dwa5"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dw6">This is questions 6.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dwi6">
+								<p id="dwa6"></p>
+							</div>	
+						</div></div></div>
+						<div id="buttons" class="container-fluid"><div class="row-fluid">
+							<div id="subBut" class="col-xs-12 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4">
+								<button value="Send" type="submit" class="btn btn-primary btn-lg" onclick="DWEval()">Submit</button>
+							</div>
+							
+							<div id="nexBut" class="col-xs-12 col-sm-2 col-sm-offset-2 ">
+								<button type="button" class="btn btn-success btn-lg" onclick="DWGenerate()">Next</button>
+							</div>
+						</div></div>
+                    </div>
+                    <div class="tab-pane fade" id="dnumber">
+						<div class="container-fluid"><div class="row-fluid">
+                        <div class="form-group">
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dn1">This is questions 1.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dni1">
+								<p id="dna1"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dn2">This is questions 2.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dni2">
+								<p id="dna2"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dn3">This is questions 3.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dni3">
+								<p id="dna3"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dn4">This is questions 4.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dni4">
+								<p id="dna4"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dn5">This is questions 5.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dni5">
+								<p id="dna5"></p>
+							</div>
+							
+							<div id="q" class="col-xs-12 col-sm-5 col-md-4">
+								<p id="dn6">This is questions 6.</p>
+								<input type="number" class="form-controlcol-xs-3" placeholder="round 2 decimal places" id="dni6">
+								<p id="dna6"></p>
+							</div>
+						</div></div></div>
+						<div id="buttons" class="container-fluid"><div class="row-fluid">
+							<div id="subBut" class="col-xs-12 col-sm-2 col-sm-offset-4 col-md-2 col-md-offset-4">
+								<button value="Send" type="submit" class="btn btn-primary btn-lg" onclick="DNEval()">Submit</button>
+							</div>
+							
+							<div id="nexBut" class="col-xs-12 col-sm-2 col-sm-offset-2 ">
+								<button type="button" class="btn btn-success btn-lg" onclick="DNGenerate()">Next</button>
+							</div>
+						</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
